@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar .nav-item .nav-link {
+    color: rgb(255, 149, 0);
+    font-weight: bold;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: rgb(42, 22, 1);
+}
+#logo{
+    color: rgb(201, 137, 8);
+    font-weight: bold;
+    font-size: 25px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#col{
+  color: rgb(254, 254, 254);
+
+}
+#Home{
+    background-image:linear-gradient( rgba(0,0,0,0.1),rgba(0,0,0,0.8)), url(iamge/pngtree-an-old-fashioned-cafe-with-tables-in-front-of-some-framed-picture-image_2468625.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#Home .box-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    height: 100vh;
+}
+.navbar .navbar-toggler{
+    color: rgb(134, 75, 3);
+    box-shadow: none;
+    font-size: 30px;
+}
+#Home .box-content .title-text h1{
+    font-size: 50px;
+    text-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 132, 0);
+
+}
+#Home .box-content .title-text{
+    padding: 0 30px 0 30px;
+
+}
+#Home .box-content .title-text p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+#Home .box-content .title-text a{
+    background-color: rgb(195, 108, 15);
+    color: aliceblue;
+    padding:8px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+#Home .box-content .title-text a:hover{
+    background-color: rgb(89, 47, 3);
+}
+#About-Coffe{
+    background-color: rgb(20, 11, 1) ;
+}
+.contain{
+    padding: 30px;
+}
+#hover:hover{
+    background-color: rgb(89, 47, 3) ;
+}
+#About-Coffe h1{
+    color: aliceblue;
+    text-align: center;
+    padding: 50px 0;
+}
+.card-group{
+    gap: 20px;
+}
+#link {
+    background-color: rgb(195, 108, 15);
+    color: aliceblue;
+    padding: 8px 15px;
+}
+.card{
+    transition: 0.5s;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(0.95);
+}
+#carouselme{
+    width:100%;
+    margin: 20px auto;
+   
+}
+#carouselme .carousel-control-next-icon, .carousel-control-prev-icon{
+    position: absolute;
+    top: 60%;
+}
+.card-body h5{
+   color: rgb(195, 108, 15) ;
+}
+.form-label,.form-check-label{
+    color: aliceblue;
+}
+.btn{
+    background-color: rgb(92, 51, 5);
+    color: aliceblue;
+    padding: 10px;
+    width: 100%;
+}
+.btn:hover{
+    color: aliceblue;
+    border: 2px solid rgb(92, 51, 5);
+}
+.form-control{
+    background: transparent;
+    border: 1px solid rgb(195, 108, 15);
+    color: rgb(255, 0, 0);
+}
+.form-control:focus{
+    background: transparent;
+    box-shadow: none;
+    border: 1px solid rgb(195, 108, 15);
+    color: aliceblue;
+}
+.form-control::placeholder{
+    color: rgb(231, 182, 131);
+}
+footer{
+  background-color: rgb(25, 12, 3);
+  color: aliceblue;
+  text-align: center;
+  padding: 10px 0;
+}
+/* @media(min-width:750px){
+    ul li a{
+      margin: auto;
+    }
+} */
